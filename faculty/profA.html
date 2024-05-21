@@ -1,0 +1,72 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="/style.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.1/css/all.min.css">
+    <script defer src="/script.js"></script>
+    <title>Your Interactive Story</title> 
+</head>
+<body>
+    <div class="Ncontainer">
+        <img src="/images/library3.png" alt="">
+        
+        <div class="Nnavbar">
+            <i class="fas fa-bars"></i>
+        </div>
+
+
+        <div class="professor">
+            <img src="../images/tE.png" alt="Teacher" draggable="false">
+        </div>
+
+
+        <div class="P-intro-box">
+                <div class="slide" id="slide1">
+                    <h1>Contact eCampusOntario</h1>
+                    <p>
+                        A staff member from eCampusOntario responds to Professor Zhou’s email with more information on OER and using their Open Library. The professor is happy to hear that the Open Library is a reliable source for finding openly licensed OER, created by college and university professors in Canada and the US. 
+                        The staff member also mentions that these OERs are openly licensed and can be freely copied, reused, and shared. Many of these resources can also be adapted or remixed to meet Professor Zhou’s needs.  
+                    </p>
+                    <button onclick="nextSlide()">Next</button>
+                </div>
+        
+                <div class="slide" id="slide2">
+                    <h1>Professor Zhou's Research</h1>
+                    <p>
+                        As Professor Zhou continues to browse in eCampusOntario’s Open Library, she finds OER on data structures as well as data analysis and visualization. However, some of the resources she found are not quite what she is looking for. She also doesn’t find any helpful resources for other subjects she is looking for, such as computational statistics. 
+                        She decides to:                         
+                    </p>
+                    <ul>
+                        <li><a href="profB.html">- Reach out to Gouthami Vigneswaran, FAST Liaison Librarian OR </a></li>
+                        <li><a href="profC.html">- Visit Sheridan Library’s OER Guide</a></li>
+                    </ul>
+                    <button onclick="prevSlide()">Previous</button>
+                </div>
+        </div>
+    </div>
+
+    <div class="Nmenu" id="menuLinks">
+        <ul>
+            <p>Faculty Stories</p>
+            <li><a href="professor.html">Faculty Story</a></li>
+            <li><a href="profA.html">Contact eCampusOntario</a></li>
+            <li><a href="profB.html">Reach out to Gouthami Vigneswaran, FAST Liaison Librarian</a></li>
+            <li><a href="profC.html">Visit Sheridan Library’s OER Guide</a></li>
+            <li><a href="profD.html">able to find OER on other topics</a></li>
+            <li><a href="profE.html">unable to find OER on other topics </a></li>
+            <li><a href="profF.html"> utilize Sheridan Library’s eCOR service to use the resources </a></li>
+            <li><a href="profG.html">try creating her own OER </a></li>
+            <li><a href="profH.html">The End</a></li>
+            <br>
+            <p>Switch To</p>
+            <li><a href="/index.html">Home Page</a></li>
+            <li><a href="/student/student.html">Student Story</a></li>
+        </ul>
+    </div>
+
+    
+
+</body>
+</html>

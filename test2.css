@@ -1,0 +1,15 @@
+.slider {
+    display: flex;
+    transition: transform 0.5s ease-in-out;
+}
+
+.slide {
+    flex: 0 0 100%;
+    padding: 30% 20px;
+    box-sizing: border-box;
+    text-align: center;
+}
+
+.hide {
+    transform: translateX(-100%);
+}
