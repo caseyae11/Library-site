@@ -1,0 +1,70 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="../style.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.1/css/all.min.css">
+    <script defer src="../script.js"></script>
+    <title>Your Interactive Story</title> 
+</head>
+<body>
+    <div class="Ncontainer">
+        <img src="../images/room.png" alt="">
+        
+        <div class="Nnavbar">
+            <i class="fas fa-bars"></i>
+        </div>
+
+        <div class="professor">
+            <img src="../images/tE.png" alt="Teacher" draggable="false">
+        </div>
+
+        <div class="P-intro-box">
+                <div class="slide" id="slide1">
+                    <h1>Story 1 (faculty)</h1>
+                    <p>
+                        Professor Zhou attended a technology and education (TESS) Conference in November. She was excited to hear all about Open Educational Resources (OER) from presentations by eCampusOntario and other speakers.
+                        At the next faculty meeting, Professor Zhou shares all the amazing things she learned about OER. Her colleagues are all eager to hear about OER and other free alternatives to commercial textbooks, and the timing is perfect since the faculty is developing a new data science program. They're keen on saving students money and being able to customize content from different resources. 
+                        Professor Zhou offers to do some research and report back to her colleagues and Associate Dean.
+                    </p>
+                    <button onclick="nextSlide()">Next</button>
+                </div>
+        
+                <div class="slide" id="slide2">
+                    <h1>Professor Zhou's Research</h1>
+                    <p>
+                        Professor Zhou starts by searching in eCampusOntario’s Open Library, looking for OER on data analysis, data structures, statistics, and more. She stumbles upon promising resources related to some of the subjects she requires.
+                        However, she has a few questions about using resources. She decides to:
+                    </p>
+                    <ul>
+                        <li><a href="profA.html">- Contact eCampusOntario</a></li>
+                        <li><a href="profB.html">- Reach out to Gouthami Vigneswaran, FAST Liaison Librarian</a></li>
+                    </ul>
+                    <button onclick="prevSlide()">Previous</button>
+                </div>
+        </div>
+     </div>
+
+     <div class="Nmenu" id="menuLinks">
+        <ul>
+            <p>Faculty Stories</p>
+            <li><a href="professor.html">Faculty Story</a></li>
+            <li><a href="profA.html">Contact eCampusOntario</a></li>
+            <li><a href="profB.html">Reach out to Gouthami Vigneswaran, FAST Liaison Librarian</a></li>
+            <li><a href="profC.html">Visit Sheridan Library’s OER Guide</a></li>
+            <li><a href="profD.html">able to find OER on other topics</a></li>
+            <li><a href="profE.html">unable to find OER on other topics </a></li>
+            <li><a href="profF.html"> utilize Sheridan Library’s eCOR service to use the resources </a></li>
+            <li><a href="profG.html">try creating her own OER </a></li>
+            <li><a href="profH.html">The End</a></li>
+            <br>
+            <p>Switch To</p>
+            <li><a href="../index.html">Home Page</a></li>
+            <li><a href="../student/student.html">Student Story</a></li>
+        </ul>
+    </div>
+
+
+</body>
+</html>

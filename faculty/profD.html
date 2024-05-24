@@ -1,0 +1,92 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="../style.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.1/css/all.min.css">
+    <script defer src="../script.js"></script>
+    <title>Your Interactive Story</title> 
+</head>
+<body>
+    <div class="Ncontainer">
+        <img src="../images/school.png" alt="">
+    
+        <div class="Nnavbar">
+            <i class="fas fa-bars"></i>
+        </div>
+
+        <div class="professor">
+            <img src="../images/tE.png" alt="Teacher" draggable="false">
+        </div>
+
+        <div class="P-intro-box">
+                <div class="slide" id="slide1">
+                    <h1> able to find OER on other topics </h1>
+                    <p>
+                        Professor Zhou shares the OER she found with her colleagues and Associate Dean at a meeting. The group is excited about these resources, since students can save some money by not having to buy as many textbooks. Her colleagues are intrigued to hear that they can adapt and remix the content in these OER. 
+                        <br>
+                        They have a few copyright questions related to how they can use and adapt OER. They also want to continue to use some of the chapters from their current textbooks. 
+                        
+                    </p>
+                    <button onclick="nextSlide()">Next</button>
+                </div>
+        
+                <div class="slide" id="slide2">
+                   
+                    <p>
+                        Professor Zhou emails Sam Cheng, Open Education and Copyright Librarian, and shares her colleagues' questions. Sam explains what the Creative Commons licenses* on each OER mean in terms of being able to copy and adapt the content. Sam suggests using a tool called Pressbooks to adapt and remix the content and explains how they can get free accounts through eCampusOntario to access it. 
+                    </p>
+                  
+                    <button onclick="prevSlide()">Previous</button>
+                    <button onclick="nextSlide()">Next</button>
+
+                </div>
+
+                <div class="slide" id="slide3">
+                    <p>
+                        Sam offers to provide additional support to the professor and her colleagues as needed. She also refers Professor Zhou to reach out to SPARK for help on incorporating OER into their instructional materials and digital learning objects.
+
+                        <img src="../images/image.png" alt="">
+                    </p>
+                  
+                    <button onclick="prevSlide()">Previous</button>
+                    <button onclick="nextSlide()">Next</button>
+
+                </div>
+
+                <div class="slide" id="slide4">
+                    <h1> The End </h1>
+
+                    <ul>
+                        <li><a href="profH.html">The end </a></li>
+                    </ul>
+                  
+                    <button onclick="prevSlide()">Previous</button>
+
+                </div>
+        </div>
+     </div>
+
+     <div class="Nmenu" id="menuLinks">
+        <ul>
+            <p>Faculty Stories</p>
+            <li><a href="professor.html">Faculty Story</a></li>
+            <li><a href="profA.html">Contact eCampusOntario</a></li>
+            <li><a href="profB.html">Reach out to Gouthami Vigneswaran, FAST Liaison Librarian</a></li>
+            <li><a href="profC.html">Visit Sheridan Library’s OER Guide</a></li>
+            <li><a href="profD.html">able to find OER on other topics</a></li>
+            <li><a href="profE.html">unable to find OER on other topics </a></li>
+            <li><a href="profF.html"> utilize Sheridan Library’s eCOR service to use the resources </a></li>
+            <li><a href="profG.html">try creating her own OER </a></li>
+            <li><a href="profH.html">The End</a></li>
+            <br>
+            <p>Switch To</p>
+            <li><a href="../index.html">Home Page</a></li>
+            <li><a href="../student/student.html">Student Story</a></li>
+        </ul>
+    </div>
+
+
+</body>
+</html>

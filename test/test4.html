@@ -1,0 +1,150 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="/style2.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.1/css/all.min.css">
+    <script defer src="/test2.js"></script>
+    <title>Your Interactive Story</title> 
+</head>
+<body class="unique-page">
+    <div class="Ncontainer">
+        <img src="/images/desktop.png" alt="">
+
+        <div class="Nnavbar">
+            <i class="fas fa-bars"></i>
+        </div>
+
+        <div class="professor">
+            <img src="../images/sE.png" alt="Teacher" draggable="false">
+        </div>
+
+        <div class="S-intro-box">
+                <div class="slide" id="slide1">
+                    <h1>Story 1 (student)</h1>
+                    <p>
+                        Afshin finds several images through Google they are interested in using. They ask their professor if these images can be legally used and how to cite them in their online project. Their professor suggests contacting Sheridan Library Services for help.
+
+                    </p>
+                    <button onclick="nextSlide()">Next</button>
+
+                </div>
+
+                <div class="slide" id="slide2">
+                    <div class="body">
+                        <div class="chat-container">
+                            <div class="mcont">
+                                <div class="message" id="message1">
+                                    <div class="sender">Afshin:</div>
+                                    <div class="content">Hi, I need help finding copyright-free images for a project</div>
+                                </div>
+                                <div class="message2" id="message2">
+                                    <div class="sender">Librarian:</div>
+                                    <div class="content">Sure, I can suggest some resources for you. What kinds of images are you looking for? Which class is it for?</div>
+                                </div>
+                                <div class="message" id="message3">
+                                    <div class="sender">Afshin:</div>
+                                    <div class="content">I need photos of people backpacking, sightseeing, and enjoying food at travel destinations. I also want photos of people of different races, ethnicities, genders, sexualities, and abilities. It’s for a digital marketing class.</div>
+                                </div>
+                                <div class="message2" id="message4">
+                                    <div class="sender">Librarian:</div>
+                                    <div class="content">Thanks for the info. Check out our Finding Images Guide. There is a page called “Creative Commons and Public Domain Images” with websites for finding copyright free images:  <a href="https://sheridancollege.libguides.com/findingimages/ccimages.">link</a> For example, Pexels and Unsplash are great sources for finding images you can copy and use. </div>
+                                </div>
+                                <!-- <div class="message2" id="message5">
+                                    <div class="sender">Librarian:</div>
+                                    <div class="content">The page also includes a few sources for finding diverse and inclusive images.</div>
+                                </div> -->
+                                <div class="message2" id="message6">
+                                    <div class="sender">Librarian:</div>
+                                    <div class="content">You will need to cite the images you use. Did your prof say you need to use APA, MLA or something else for citations?</div>
+                                </div>
+                                <div class="message" id="message7">
+                                    <div class="sender">Afshin:</div>
+                                    <div class="content">APA, I think. </div>
+                                </div>
+                                <div class="message2" id="message8">
+                                    <div class="sender">Librarian:</div>
+                                    <div class="content">Here is the library guide on citing images in APA: <a href="https://sheridancollege.libguides.com/apa/images"> link</a></div>
+                                </div>
+                                <div class="message2" id="message9">
+                                    <div class="sender">Librarian:</div>
+                                    <div class="content">If you have any copyright questions about using images, you can email Sam Cheng, the copyright librarian (copyright@sheridancollege.ca) </div>
+                                </div>
+                                <div class="message" id="message10">
+                                    <div class="sender">Ashvin:</div>
+                                    <div class="content">Thanks! This is really helpful. </div>
+                                </div>
+                                <div class="message2" id="message11">
+                                    <div class="sender">Librarian:</div>
+                                    <div class="content">You’re welcome 😊. Message us if you need help again. Good luck with your project!</div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    
+                    <button onclick="prevSlide()">Previous</button>
+                <button onclick="nextSlide()">Next</button>
+
+                </div>
+                
+                <br>
+
+                <div class="slide" id="slide3">
+                    <p>
+                        Afshin starts by browsing through Sheridan Library’s Finding Images Guide. The guide mentions Creative Commons licensed and public domain images. 
+                        Creative Commons licensed images are copyright friendly, allowing copying, usage, and sharing with attribution. Additional conditions, such as non-commercial use, may apply based on the specific license type. 
+                        Images that are labelled as public domain are not protected by copyright, free to copy, use and share. Attribution is still recommended.   
+                        The guide also has a list of curated websites such as Pexels and Unsplash to find Creative Commons licensed and public domain images. 
+
+                    </p>
+                    <button onclick="prevSlide()">Previous</button>
+                    <button onclick="nextSlide()">Next</button>
+                </div>
+
+                <br>
+
+                <div class="slide" id="slide4">
+                    <p>
+                        Afshin decides to give Pexels a try and types in different keywords, such as “lgbtq” and “vacation,” to search for images. They are happy to find a few photos that could work for their project. 
+                        However, Afshin still wants to use an image they found through Google. The photo shows a group of individuals in wheelchairs enjoying an outdoor adventure. 
+                        
+                    </p>
+                
+                    <ul>
+                        <p> Afshin decides to: </p>
+                        <li><a href="stud3.html">- cite the images to comply with academic integrity OR </a></li>
+                        <li><a href="stud4.html">- email Sam Cheng, the Open Education and Copyright librarian, to ask if they can use the image found through Google.  </a></li>
+                    </ul>
+                    
+                    <button onclick="prevSlide()">Previous</button>
+                </div>
+
+
+                
+        </div>
+     </div>
+
+     <div class="Nmenu" id="menuLinks">
+        <ul>
+            <p>Student Stories</p>
+            <li><a href="student.html">Do a Google search for images</a></li>
+            <li><a href="stud1.html">Explore the Stock Images and Online Pictures available in MS Word </a></li>
+            <li><a href="stud2.html">Afshin signs on to Sheridan Library’s Chat for help.</a></li>
+            <li><a href="stud3.html">cite the images to comply with academic integrity</a></li>
+            <li><a href="stud4.html">email Sam Cheng, the Open Education and Copyright Librarian, for copyright help</a></li>
+            <li><a href="stud5.html">Use Google Images to find a Creative Commons alternative. </a></li>
+            <li><a href="stud6.html">Receives a response from the person </a></li>
+            <li><a href="stud7.html">has not heard back from them.</a></li>
+            <li><a href="stud8.html">The End</a></li>
+            <br>
+            <p>Switch To</p>
+            <li><a href="/index.html">Home Page</a></li>
+            <li><a href="/faculty/professor.html">Faculty Story</a></li>
+        </ul>
+    </div>
+   
+
+
+</body>
+</html>
